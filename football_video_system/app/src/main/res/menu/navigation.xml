@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/video"
+        android:title="@string/video" />
+    <item
+        android:id="@+id/navigation_assignment"
+        android:icon="@drawable/assignment"
+        android:title="@string/assignment" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/user"
+        android:title="@string/user" />
+
+</menu>
