@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="editor.activities.EditingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <include layout="@layout/widget_toolbar" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ListView
+            android:id="@+id/editing_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@color/sun_toolbar_green"
+        android:layout_gravity="bottom"
+        />
+
+    <Button
+        android:id="@+id/editing_finish"
+        android:layout_height="50dp"
+        android:layout_width="75dp"
+        android:background="@drawable/new_match_accept"
+        android:layout_gravity="right|bottom"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

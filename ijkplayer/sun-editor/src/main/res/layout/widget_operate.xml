@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <Button
+
+                android:id= "@+id/operate_button_play"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_play"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="播放"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp">
+            <Button
+                android:id= "@+id/operate_button_new"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_new"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="新建"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+            <Button
+                android:id= "@+id/operate_button_remove"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_delete"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="删除"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+            <Button
+                android:id= "@+id/operate_button_update"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_update"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="上传"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp">
+        <Button
+            android:id= "@+id/operate_button_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/mark_edit"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="修改"
+            android:textColor="@color/black_overlay"
+            android:textSize="16sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

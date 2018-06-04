@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="editor.activities.NewMatchActivity"
+              tools:showIn="@layout/activity_new_match">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_folder_open_black_30dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="选择位置"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <FrameLayout
+                android:id="@+id/new_match_north"
+                android:background="@drawable/video_match"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/small_red_point_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/samll_read_point_10dp"/>
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/football_door_north"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center|top"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <FrameLayout
+                android:id="@+id/new_match_middle"
+                android:background="@drawable/video_match"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/small_red_point_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/samll_read_point_10dp"/>
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/football_door_middle"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center|top"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <FrameLayout
+                android:id="@+id/new_match_south"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/video_match"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/small_red_point_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/samll_read_point_10dp"/>
+
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/football_door_south"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center|top"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="#F0F0F0"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <!-- android:background="#FFFFCC" -->
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <Button
+
+                android:id= "@+id/new_match_button_play"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_play"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="预览"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp">
+            <Button
+                android:id= "@+id/new_match_button_remove"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mark_delete"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="修改"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="#F0F0F0"/>
+
+</LinearLayout>

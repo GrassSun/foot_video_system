@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/sunweijun/.android/build-cache/676bce6b59f82cd081df25220f7af1bb249ac6a2/output/res/layout-v11/notification_template_big_media.xml"
+    }
+]

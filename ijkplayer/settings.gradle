@@ -1,0 +1,6 @@
+include ':ijkplayer-armv7a'
+
+include ':ijkplayer-java'
+include ':ijkplayer-exo'
+
+include ':sun-editor'

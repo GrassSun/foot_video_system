@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menu_app">
+    <item
+        android:id="@+id/action_test"
+        android:title="@string/test"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_ep"
+        android:title="@string/epmedia"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_sample"
+        android:title="@string/sample"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_recent"
+        android:title="@string/recent"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/sunweijun/gitlab/NewEditor/ijkplayer/editor/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

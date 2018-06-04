@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".menu_editing">
+    <item
+        android:id="@+id/save_mark"
+        android:title="保存（不退出）"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/quit_mark"
+        android:title="退出（不保存）"
+        app:showAsAction="never"/>
+</menu>

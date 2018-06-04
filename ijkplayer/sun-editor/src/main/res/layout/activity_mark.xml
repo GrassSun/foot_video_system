@@ -1,0 +1,65 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="editor.activities.MarkActivity"
+    android:id="@+id/mark_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <editor.widget.MarkView
+            android:id="@+id/mark_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+        </editor.widget.MarkView>
+
+        <TextView
+            android:id="@+id/mark_toast_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@color/ijk_transparent_dark"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/mark_button"
+            android:src="@drawable/mark_image"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right|center_vertical"/>
+
+        <TableLayout
+            android:id="@+id/mark_hud_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:background="@color/ijk_transparent_dark"
+            android:padding="8dp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mark_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ijk_transparent_dark"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:context=".toolbar_widget" />
+    </FrameLayout>
+
+    <!-- The navigation drawer -->
+    <FrameLayout android:id="@+id/mark_right_drawer"
+                 android:layout_width="240dp"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="right"
+                 android:background="@color/ijk_transparent_dark" />
+</android.support.v4.widget.DrawerLayout>
